@@ -1,6 +1,6 @@
 package ex_22082025;
 
-public class Lab60 {
+public class Lab060 {
     public static void main(String[] args) {
         String s1="Saurabh Jadhav"; //SCP
         String s2="Saurabh Jadhav";//SCP
