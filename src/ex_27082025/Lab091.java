@@ -10,6 +10,7 @@ public class Lab091 {
 
             //we can use defaualt statement as first step also only we need to use it break
 
+
         }
     }
 }
