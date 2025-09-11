@@ -4,14 +4,16 @@ import java.util.Scanner;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        //Check prime number or not
-        Scanner Sc = new Scanner(System.in);
-        System.out.println("Give me number i will tell u it is prime or not");
-        int num = Sc.nextInt();
-        if () {
-            System.out.println();
-        } else {
-            System.out.println();
+        String original="Saurabh";
+        String reverse="";
+
+        for(int i=original.length()-1;i>=0;i--) {
+            reverse = reverse + original.charAt(i);
+        }
+            {
+                System.out.println("Actual String"+original);
+                System.out.println("Reversed String"+reverse);
+            }
+
         }
     }
-}
