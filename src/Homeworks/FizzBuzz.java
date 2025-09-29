@@ -12,5 +12,19 @@ public class FizzBuzz {
         // and for multiples of 5, print "Buzz."
         // For numbers that are multiples of both 3 and 5,
         // print "FizzBuzz."
+        for (int i = 1; i <=100 ; i++) {
+            if(i%3==0){
+                System.out.println("FIZZ----->"+i);
+            } else if (i%5==0) {
+                System.out.println("BUZZ---->"+i);
+            } else if (i%3==0&&i%5==0) {
+                System.out.println("FIZZBUZZ---->"+i);
+            }else {
+                System.out.println(i);
+            }
+
+        }
+
+
     }
 }
