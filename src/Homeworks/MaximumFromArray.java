@@ -9,7 +9,14 @@ public class MaximumFromArray {
            if(salaries[i]>max_salary){
                max_salary=salaries[i];
            }
-
+int j=0;
+           while (j<salaries.length){
+               if(salaries[j]>max_salary){
+                   max_salary=salaries[j];
+               }
+               j++;
+           }
+           System.out.println("The maximum salaries are--->"+max_salary);
        }
         System.out.println("The maximum salary is--->"+max_salary);
     }
