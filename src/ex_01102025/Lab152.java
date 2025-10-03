@@ -7,6 +7,10 @@ public class Lab152 {
 
         sayhello("Saurabh");
         System.out.println();
+        //No return with no parameters
+        //No Retrun with Parameters
+        //Return with No Parameters
+        //Return with Parameters
     }
 
     private static void sayhello(String name) {
