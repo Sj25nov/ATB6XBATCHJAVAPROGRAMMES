@@ -22,6 +22,10 @@ public class ATBPerson {
       System.out.println("Hello");
     }
 
+    ATBPerson(String Given_name){
+        System.out.println("Saurabh");
+    }
+
 
 
 }
