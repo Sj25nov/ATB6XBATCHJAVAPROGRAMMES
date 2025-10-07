@@ -9,6 +9,8 @@ public class Lab168 {
         ATBPerson DetailsStudent1=new ATBPerson();
         DetailsStudent.course_name="Java_AutomationBatch";
       System.out.println(DetailsStudent.course_name);
+      ATBPerson Details=new ATBPerson("ATBPYTHONBATCH");
+      System.out.println(Details.course_name);
 
     }
 }

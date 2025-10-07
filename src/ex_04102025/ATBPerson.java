@@ -22,8 +22,8 @@ public class ATBPerson {
       System.out.println("Hello");
     }
 
-    ATBPerson(String Given_name){
-        System.out.println("Saurabh");
+    ATBPerson(String course_name){
+        System.out.println("Java_AutomationBatch");
     }
 
 
