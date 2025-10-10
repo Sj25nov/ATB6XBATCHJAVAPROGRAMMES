@@ -18,4 +18,12 @@ void defaultCO(){
     System.out.println("The name"); //It is not a constructor because it is not returning any value --->void It is the function
 
     }
+    ATPPerson1(String given_name){
+        System.out.println("This is the Parameterized Constructor");
+        this.name=given_name;
+    }
+    ATPPerson1(long mymobileno){
+        System.out.println("The Mobile Number is");
+        this.Mobile_no=mymobileno;
+    }
 }
